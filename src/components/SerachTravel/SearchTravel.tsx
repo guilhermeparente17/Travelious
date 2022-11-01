@@ -1,6 +1,7 @@
 import React from 'react'
 import ButtonTravel from '../ButtonTravel/ButtonTravel'
 import { 
+    Airplane,
     ButtonSearch,
     Date,
     Location,
@@ -15,7 +16,6 @@ import {
     SearchSpan,
     SearchTitle
 } from './SearchTravel.Elements'
-import { IoIosAirplane } from 'react-icons/io';
 import { GoSearch } from "react-icons/go";
 
 const SearchTravel = () => {
@@ -48,7 +48,7 @@ const SearchTravel = () => {
                     </SearchOpt>
                 </SearchOpts>
 
-                <IoIosAirplane size={30} color='#4364d0' style={{margin: '0px 15px'}} />
+                <Airplane size={30} color='#4364d0' />
 
                 <SearchOpts>
                     <SearchOpt>
